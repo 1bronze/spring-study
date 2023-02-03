@@ -39,6 +39,7 @@ public class OrderServiceTest {
         book.setName("시골 JPA");
         book.setPrice(10000);
         book.setStockQuantity(10);
+        em.persist(book);
 
         int orderCount = 2;
 
