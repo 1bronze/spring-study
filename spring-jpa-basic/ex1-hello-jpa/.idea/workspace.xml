@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7d77f9-88ac-4ba4-87af-0c9edbf3f70f" name="Changes" comment="JPA 기본편 - 상속 관계 매핑">
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/jpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/jpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/jpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/jpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Delivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1675530680747" duration="7533000" />
       <workItem from="1675614646243" duration="652000" />
       <workItem from="1675658372842" duration="152000" />
-      <workItem from="1676614080597" duration="5685000" />
+      <workItem from="1676614080597" duration="12654000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 기본편 - Hello JPA 프로젝트 생성">
       <created>1675502911584</created>
