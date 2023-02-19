@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf7d77f9-88ac-4ba4-87af-0c9edbf3f70f" name="Changes" comment="JPA 기본편 - 상속 관계 매핑">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
+    <list default="true" id="cf7d77f9-88ac-4ba4-87af-0c9edbf3f70f" name="Changes" comment="JPA 기본편 - 프록시, CASCADE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/AddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/ValueMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Delivery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/target/classes/jpabook/jpashop/domain/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.jpaMain">
+    <configuration name="ValueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.ValueMain" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.jpaMain" />
       <module name="ex1-hello-jpa" />
@@ -82,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.jpaMain" />
+        <item itemvalue="Application.ValueMain" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +109,7 @@
       <workItem from="1675530680747" duration="7533000" />
       <workItem from="1675614646243" duration="652000" />
       <workItem from="1675658372842" duration="152000" />
-      <workItem from="1676614080597" duration="12654000" />
+      <workItem from="1676614080597" duration="24314000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 기본편 - Hello JPA 프로젝트 생성">
       <created>1675502911584</created>
@@ -113,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676619337481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JPA 기본편 - 프록시, CASCADE">
+      <created>1676703356413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676703356413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JPA 기본편 - Hello JPA 프로젝트 생성" />
     <MESSAGE value="JPA 기본편 - 상속 관계 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 기본편 - 상속 관계 매핑" />
+    <MESSAGE value="JPA 기본편 - 프록시, CASCADE" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 기본편 - 프록시, CASCADE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
