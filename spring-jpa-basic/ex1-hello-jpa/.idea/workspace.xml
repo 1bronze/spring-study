@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf7d77f9-88ac-4ba4-87af-0c9edbf3f70f" name="Changes" comment="JPA 기본편 - 프록시, CASCADE">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/AddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/ValueMain.java" afterDir="false" />
+    <list default="true" id="cf7d77f9-88ac-4ba4-87af-0c9edbf3f70f" name="Changes" comment="JPA 기본편 - 값 타입">
+      <change afterPath="$PROJECT_DIR$/../jpql/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/jpql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/src/main/java/jpql/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/src/main/java/jpql/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/src/main/java/jpql/jpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/jpaMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kimhandong/repository/spring/spring-jpa-basic/ex1-hello-jpa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimhandong/repository/spring/spring-jpa-basic/ex1-hello-jpa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
@@ -109,7 +114,8 @@
       <workItem from="1675530680747" duration="7533000" />
       <workItem from="1675614646243" duration="652000" />
       <workItem from="1675658372842" duration="152000" />
-      <workItem from="1676614080597" duration="24314000" />
+      <workItem from="1676614080597" duration="27088000" />
+      <workItem from="1677080855881" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 기본편 - Hello JPA 프로젝트 생성">
       <created>1675502911584</created>
@@ -132,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676703356413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JPA 기본편 - 값 타입">
+      <created>1676788475544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676788475544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +166,8 @@
     <MESSAGE value="JPA 기본편 - Hello JPA 프로젝트 생성" />
     <MESSAGE value="JPA 기본편 - 상속 관계 매핑" />
     <MESSAGE value="JPA 기본편 - 프록시, CASCADE" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 기본편 - 프록시, CASCADE" />
+    <MESSAGE value="JPA 기본편 - 값 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 기본편 - 값 타입" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
