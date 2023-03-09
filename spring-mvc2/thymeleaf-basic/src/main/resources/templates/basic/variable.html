@@ -7,15 +7,13 @@
 <body>
 <h1>SpringEL 표현식</h1>
 <ul>Object
-    <li>${user.username} =
+    <li>${user.username} = <span th:text="${user.username}"></span> </li>
     <li>${user['username']} = <span th:text="${user['username']}"></span></li>
     <li>${user.getUsername()} = <span th:text="${user.getUsername()}"></span></li>
 </ul>
 <ul>List
-    <li>${users[0].username} = <span th:text="${users[0].username}"></span>
-    </li>
-    <li>${users[0]['username']} = <span th:text="${users[0]['username']}"></span>
-    </li>
+    <li>${users[0].username} = <span th:text="${users[0].username}"></span></li>
+    <li>${users[0]['username']} = <span th:text="${users[0]['username']}"></span></li>
     <li>${users[0].getUsername()} = <span th:text="${users[0].getUsername()}"></span></li>
 </ul>
 <ul>Map
