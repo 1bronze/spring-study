@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragment/fragment-parts :: headerCopy">
+    <title>스프링 부트 웹서비스</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+</head>
+<body class="mx-3">
+<h1 class="pt-4">스프링부트로 시작하는 웹 서비스 Ver.2</h1>
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
+        </div>
+    </div>
+    <br>
+    <!--목록 출력 영억-->
+    <table class="table table-horizontal table-bordered">
+        <thead class="thead-strong">
+        <tr>
+            <th>게시글번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>최종수정일</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        <tr th:each="post : ${posts}">
+            <td th:text="${post.id}">id</td>
+            <td><a th:text="${post.title}" th:href="|/posts/update/${post.id}|" href="/">title</a></td>
+            <td th:text="${post.author}">author</td>
+            <td th:text="${#temporals.format(post.modifiedDate, 'yyyy-MM-dd HH:mm:ss')}">modifiedDate</td>
+        </tr>
+<!--        {{/posts}}-->
+        </tbody>
+    </table>
+</div>
+
+<footer th:replace="fragment/fragment-parts :: footerCopy"></footer>
+</body>
+</html>
