@@ -1,7 +1,10 @@
 package com.springaws.book.web;
 
+import com.springaws.book.config.auth.LoginUser;
+import com.springaws.book.config.auth.dto.SessionUser;
 import com.springaws.book.service.posts.PostsService;
 import com.springaws.book.web.dto.PostsResponseDto;
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,10 +16,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class IndexController {
 
     private final PostsService postsService;
+    private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
+        if(user != null) {
+            model.addAttribute("userName", user.getName());
+        }
         return "index";
     }
 
