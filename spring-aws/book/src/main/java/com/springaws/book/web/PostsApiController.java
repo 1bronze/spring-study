@@ -5,6 +5,7 @@ import com.springaws.book.web.dto.PostsResponseDto;
 import com.springaws.book.web.dto.PostsSaveRequestDto;
 import com.springaws.book.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter;
 import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
